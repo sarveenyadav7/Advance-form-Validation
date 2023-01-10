@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.outer-covering{
+    width: 100%;
+    height: auto;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.semi-covering{
+    width: 100%;
+    height: 580.5px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    border-radius: 30px;
+    display: none;
+}
+.changes-button{
+    width: 40%;
+    height: 60px;
+    float: left;
+    background-color: white;
+    border: black;
+    margin-left: 50px;
+}
+.semi-row{
+    width: 60%;
+    height: auto;
+    /* border: 10px solid red; */
+    margin: 5%;
+    position: relative;
+}
+.semi-col{
+    width: 50%;
+    height: 580.5px;
+    /* border: 10px solid orange; */
+    float: left;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.logo{
+    width: 240px;
+    height: 200px;
+    background-image: url(images/logo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    /* margin: 80px; */
+    margin-top: 46%;
+    margin-left: 20%;
+}
+.semi-col1{
+    width: 50%;
+    height: 580.5px;
+    /* border: 10px solid green; */
+    float: left;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.semi-col1 h1, p{
+    text-align: center;
+    margin: 10px;
+}
+.registration_label{
+    margin-bottom: 3px;
+}
+.registration_input{
+    background-color: rgba(0, 0, 0, -2.1);
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8)
+}
+.form-styling{
+    margin-top: 50px;
+}
+.form-styling .create-button{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    float: left;
+    background-color: skyblue;
+    margin-left: 5%;
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.info{
+    margin-left: 10%;
+    margin-bottom: 12px;
+    color: white;
+}
+select{
+    background-color: rgba(0, 0, 0, -2.1);
+    width: 80%;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.8); 
+}
+option{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.input_wrong{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10%;
+}
+.input_success{
+    color: green;
+    font-size: 14px;
+    margin-bottom: 3px;
+    margin-left: 10%;
+}

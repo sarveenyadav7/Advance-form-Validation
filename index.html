@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final form validation project</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,600&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="outer-covering">
+
+        <div class="semi-row">
+            <!-- <div class="semi-covering">
+                <div class="content1"></div>
+                <div class="content2"></div>
+                <div class="content3"></div>
+                <div class="content4"></div>
+                <div class="content5"></div>
+                <div class="content6"></div>
+
+                <button class="changes-button"></button>
+                <button class="changes-button"></button>
+            </div> -->
+
+            <div class="semi-col">
+                <div class="logo"></div>
+                <div style="color: white; margin-left: 33%; margin-top: 10%; font-size: 36px;">JAQUAR</div>
+            </div>
+
+
+            <div class="semi-col1">
+                <h1 style="color: white;">REGISTER</h1>
+                <P style="color: #9fd5f0a3;">ITS COMPLETELY FREE</P>
+                <form class="form-styling" onsubmit="event.preventDefault(); return sarveen()">
+                    <div class="info">
+                        <label for="firstname">First name:</label>
+                        <input type="text" name="firstname" placeholder="First Name" id="first-name" class="registration_input">
+                    </div>
+                    <div class="info">
+                        <label for="lastname">Last name:</label>
+                        <input type="text" name="lastname" placeholder="Last Name" id="last-name" class="registration_input">
+                    </div>
+                    <div class="info">
+                        <label for="email" class="registration_label">User email Id:</label>
+                        <input type="email" name="email" id="user_email" placeholder="User Email"class="registration_input">
+                    </div>
+                    <div class="info">
+                        <label for="D-O-B" class="registration_label">Date of Birth:</label>
+                        <input type="date" id="birth" name="birth" placeholder="D-O-B" id="User D.O.B" style="color: rgba(255, 255, 255, 0.4)" class="registration_input">
+                    </div>
+
+                    <div class="info">
+                        <label for="country">Select Your Country :</label>
+                        <select name="country" id="country">
+                            <option value=""></option>
+                            <option value="india">India</option>
+                            <option value="australia">Australia</option>
+                            <option value="america">America</option>
+                            <option value="china">China</option>
+                            <option value="south-africa">South Africa</option>
+                            <option value="britain">Britain</option>
+                            <option value="canada">Canada</option>
+                            <option value="brazil">Brazil</option>
+                        </select>
+                    </div>
+                    <div class="info">
+                        <label for="state">Select Your State :</label>
+                        <select name="state" id="state">
+                            <option value=""></option>
+                            <option value="delhi">Delhi</option>
+                            <option value="haryana">Haryana</option>
+                            <option value="punjab">Punjab</option>
+                            <option value="jammu">Jammu</option>
+                            <option value="karnataka">Karnataka</option>
+                            <option value="sikkim">Sikkim</option>
+                            <option value="bihar">Bihar</option>
+                            <option value="rajasthan">Rajasthan</option>
+                            <option value="sikkim">Sikkim</option>
+                        </select>
+                    </div>
+                    
+
+                    <div class="input_wrong"></div>
+                    <div class="input_success"></div>
+
+                    <button class="create-button">CREATE ACCOUNT</button>
+                </form>
+
+                <p style="color: #9fd5f0a3; display: block;"> Iam Already a Register</p>
+                <hr style="border-bottom: 2px solid white; margin: 10px;" />
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
