@@ -28,6 +28,9 @@ function sarveen(){
     let statesName = document.querySelector("#state").value
     console.log(statesName)
 
+
+
+    
     if(firstNameLength <=3){
         document.querySelector('.input_wrong').innerText = 'First name should contain minimum 4 character...'
         document.querySelector('.input_success').innerText = ''
